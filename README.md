@@ -1,3 +1,12 @@
+# para que funcione
+
+primero hacer el clone
+luego entrar a la carpeta del proyecto(donde este clonado)
+seguido abrir un shel o consolita de comando y estar parado en la ruta donde esta proyecto
+escribir el comando: npm install
+
+para correr en un servidor local: ng serve --o
+
 # VentasMicroproyecto
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
