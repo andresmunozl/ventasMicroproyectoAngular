@@ -7,6 +7,8 @@ import { PerfilPaginaComponent } from './perfil-pagina/perfil-pagina.component';
 import { NavegacionbarraComponent } from './navegacionbarra/navegacionbarra.component';
 import { ComprarproductoproveedorComponent } from './comprarproductoproveedor/comprarproductoproveedor.component';
 import { ClientesListaComponent } from './clientes-lista/clientes-lista.component';
+import { CrearClienteComponent } from './crear-cliente/crear-cliente.component';
+import { CrearProductoComponent } from './crear-producto/crear-producto.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ClientesListaComponent } from './clientes-lista/clientes-lista.componen
     PerfilPaginaComponent,
     NavegacionbarraComponent,
     ComprarproductoproveedorComponent,
-    ClientesListaComponent
+    ClientesListaComponent,
+    CrearClienteComponent,
+    CrearProductoComponent
   ],
   imports: [
     BrowserModule,

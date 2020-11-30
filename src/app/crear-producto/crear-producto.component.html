@@ -1,0 +1,52 @@
+<div>
+    <h1>Bienvenido Administrador</h1>
+</div>
+<h1 class="product">Crear nuevo producto</h1>
+
+<div class="div2">
+    <form action="/action_page.php">
+        <label for="fname">Nombre</label>
+        <input type="text" id="fname" name="firstname" placeholder="Escribe el nombre del producto..">
+
+        <label for="lname">Marca</label>
+        <input type="text" id="lname" name="lastname" placeholder="Marca del producto..">
+
+        <label for="lname">Modelo</label>
+        <input type="text" id="lname" name="lastname" placeholder="Modelo del producto..">
+
+        <label for="lname">Descripción</label>
+        <input type="text" id="lname" name="lastname" placeholder="Descripción del producto..">
+
+        <label for="ubi">Ubicación</label>
+        <select id="ubi" name="ubicación">
+            <option value="bodega">Bodega</option>
+            <option value="vitrina">Vitrina</option>
+        </select>
+
+        <label for="precio">Precio</label>
+        <input type="text" id="lname" name="precio" placeholder="Precio del producto..">
+
+        <label for="country">Stock</label>
+        <select id="country" name="stock">
+            <option value="australia">1</option>
+            <option value="canada">2</option>
+            <option value="usa">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <a href="#miModal" class="refer btn-reporte pc">Guardar</a>
+    </form>
+</div>
+
+<div id="miModal" class="modal">
+    <div class="modal-contenido">
+        <a href="#">X</a>
+        <h1>Compra exitosa</h1>
+        <p>¡El producto ha sido guardado exitosamente!</p>
+        <div class="repor">
+            <a class="refer pc" href="productos.html">Ok</a>
+
+        </div>
+    </div>
+</div>
