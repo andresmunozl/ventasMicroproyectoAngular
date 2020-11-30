@@ -1,0 +1,65 @@
+<div><h1>Bienvenido Administrador</h1></div>
+		<h1 class="product">Proveedor</h1>
+		<a class="refer btn-agregar pc"  routerLink="/creacion-prov">Crear nuevo proveedor</a>
+		<table role="table">
+			<thead role="rowgroup">
+			  <tr role="row">
+				<th class = "cp" role="columnheader">Id proveedor</th>
+				<th class = "cp" role="columnheader">Nombre empresa</th>
+				<th class = "cp" role="columnheader">nombre</th>
+				<th class = "cp" role="columnheader">identificación</th>
+				<th class = "cp" role="columnheader">Acciones</th>
+			  </tr>
+			</thead>
+			<tbody role="rowgroup">
+			  <tr role="row">
+				<td role="cell">000001</td>
+				<td role="cell">empresa#1</td>
+				<td role="cell">Elbert Bejarano</td>
+				<td role="cell">3001237986</td>
+				<td role="cell"><a routerLink="/edit-prov"><i class="fa fa-edit"></i></a>
+					<a href="#modaleliminarproveedor"> <i class="fa fa-trash"></i> <span class="off"></span></a>
+				</td>
+			  </tr>
+
+			  <tr role="row">
+				<td role="cell">000002</td>
+				<td role="cell">empresa#2</td>
+				<td role="cell">Natalia Zuñiga</td>
+				<td role="cell">3001237986</td>
+				<td role="cell"><a routerLink="/edit-prov"><i class="fa fa-edit"></i></a>
+					<a href="#modaleliminarproveedor"> <i class="fa fa-trash"></i> <span class="off"></span></a>
+				</td>
+			  </tr>
+
+			  <tr role="row">
+				<td role="cell">000003</td>
+				<td role="cell">empresa#3</td>
+				<td role="cell">Rosa Angulo</td>
+				<td role="cell">3001237986</td>
+				<td role="cell"><a routerLink="/edit-prov"><i class="fa fa-edit"></i></a>
+					<a href="#modaleliminarproveedor"> <i class="fa fa-trash"></i> <span class="off"></span></a></td>
+			  </tr>
+
+			 
+			  
+			  
+			</tbody>
+		  </table>
+		  <div class="repor">
+		  <!-- <a class="refer btn-reporte pc"  href="#">Generar reporte de inventario</a> -->
+		</div>
+
+		 <!-- aqui puedes programar el modal-->
+		 <div id="modaleliminarproveedor" class="modal">
+			<div class="modal-contenido">
+			  <a href="#">X</a>
+			  <h1>¿Seguro desea eliminar este proveedor?</h1>
+			  <p>Esta acción no tiene marcha atrás, al presionar Si se eliminará este proveedor</p>
+			    <div class="repor">
+                      <a class="refer pc"  href="#">Si</a>
+		              <a class="refer pc"  href="#">No</a>
+			</div> 
+			</div>  
+		  </div>
+         <!-- aqui finaliza el modal-->

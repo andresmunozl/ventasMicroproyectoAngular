@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "VentasMicroproyecto"
+    }
+  },
+  "defaultProject": "VentasMicroproyecto",
+  "cli": {
+    "analytics": "7ed4dfe3-1659-432d-a4df-8b8caaffcff2"
+  }
 }
