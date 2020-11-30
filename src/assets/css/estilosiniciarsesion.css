@@ -1,0 +1,43 @@
+.inputs {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+}
+ 
+.formulario {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    width: 500px;
+    background: #eee;
+}
+ 
+div.form-element {
+    margin: 20px 0;
+}
+ 
+.boton {
+    padding: 10px;
+    /* font-size: 1.5rem; */
+    font-family: 'Lato';
+    font-weight: 100;
+    background: rgb(109, 167, 255);
+    color: white;
+    border: none;
+}
+
+.labeltextos {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+
+.divlogin{
+	margin: 50px auto;
+    text-align: center;
+    width: 800px;
+}

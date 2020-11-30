@@ -1,0 +1,47 @@
+<div>
+	<h1>Bienvenido Administrador</h1>
+</div>
+<h1 class="product">Comprar nuevo producto al proveedor</h1>
+
+<div class="div2">
+	<form action="/action_page.php">
+		<label for="fname">Nombre del Producto</label>
+		<input type="text" id="fname" name="firstname" placeholder="Escribe el nombre del producto..">
+
+		<label for="lname">Marca</label>
+		<input type="text" id="lname" name="lastname" placeholder="Marca del producto..">
+
+		<label for="lname">Modelo</label>
+		<input type="text" id="lname" name="lastname" placeholder="Modelo del producto..">
+
+		<label for="precio">Precio</label>
+		<input type="text" id="lname" name="precio" placeholder="Precio del producto..">
+
+		<label for="country">Stock</label>
+		<select id="country" name="stock">
+			<option value="australia">1</option>
+			<option value="canada">2</option>
+			<option value="usa">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select>
+
+		<label for="lname">Proveedor</label>
+		<input type="text" id="lname" name="lastname" placeholder="Nombre del proveedor..">
+
+
+		<a href="#miModal" class="refer btn-reporte pc">Guardar</a>
+	</form>
+</div>
+
+<div id="miModal" class="modal">
+	<div class="modal-contenido">
+		<a href="#">X</a>
+		<h1>Compra exitosa</h1>
+		<p>¡El producto ha sido comprado exitosamente!</p>
+		<div class="repor">
+			<a class="refer pc" href="#">Ok</a>
+
+		</div>
+	</div>
+</div>
