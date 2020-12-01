@@ -25,7 +25,7 @@
 				<td role="cell">Celular</td>
 				<td role="cell">$1.400.000</td>
 				<td role="cell">2 <i class="fa fa-angle-up"></i></td>
-				<td role="cell"> <a routerLink="/edit_product"><i class="fa fa-edit"></i><span class="off"></span></a>  <a href="#miModal"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
+				<td role="cell"> <a routerLink="/edit_product"><i class="fa fa-edit"></i><span class="off"></span></a>  <a (click)="alertConfirmation2()"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
 			  </tr>
 			  <tr role="row">
 				<td role="cell">000002</td>
@@ -36,7 +36,7 @@
 				<td role="cell">Celular</td>
 				<td role="cell">$800.000</td>
 				<td role="cell">4 <i class="fa fa-angle-up"></i></td>
-				<td role="cell"> <a routerLink="/edit_product"><i class="fa fa-edit"></i><span class="off"></span></a>  <a href="#miModal"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
+				<td role="cell"> <a routerLink="/edit_product"><i class="fa fa-edit"></i><span class="off"></span></a>  <a (click)="alertConfirmation2()"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
 			  </tr>
 			  <tr role="row">
 				<td role="cell">000003</td>
@@ -47,7 +47,7 @@
 				<td role="cell">Computador</td>
 				<td role="cell">$2.000.000</td>
 				<td role="cell">1 <i class="fa fa-angle-up"></i></td>
-				<td role="cell"> <a routerLink="/edit_product"><i class="fa fa-edit"></i><span class="off"></span></a>  <a href="#miModal"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
+				<td role="cell"> <a routerLink="/edit_product"><i class="fa fa-edit"></i><span class="off"></span></a>  <a (click)="alertConfirmation2()"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
 			  </tr>
 			  <tr role="row">
 				<td role="cell">000004</td>
@@ -58,7 +58,7 @@
 				<td role="cell">Celular</td>
 				<td role="cell">$1.300.000</td>
 				<td role="cell">3 <i class="fa fa-angle-up"></i></td>
-				<td role="cell"> <a routerLink="/edit_product"><i class="fa fa-edit"></i><span class="off"></span></a>  <a href="#miModal"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
+				<td role="cell"> <a routerLink="/edit_product"><i class="fa fa-edit"></i><span class="off"></span></a>  <a (click)="alertConfirmation2()"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
 			  </tr>
 			  <tr role="row">
 				<td role="cell">000005</td>
@@ -69,38 +69,12 @@
 				<td role="cell">Computador</td>
 				<td role="cell">$3.300.000</td>
 				<td role="cell">2 <i class="fa fa-angle-up"></i></td>
-				<td role="cell"> <a routerLink="/edit_product"><i class="fa fa-edit"></i><span class="off"></span></a>  <a href="#miModal"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
+				<td role="cell"> <a routerLink="/edit_product"><i class="fa fa-edit"></i><span class="off"></span></a>  <a (click)="alertConfirmation2()"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
 			  </tr>
 			</tbody>
 		  </table>
 
-        <div class="repor2">
-		  <a href="#mi2Modal" class="refer btn-reporte pc" >Generar reporte de inventario</a>
-		</div>
 
-		  <!-- aqui puedes programar el modal-->
-		  <div id="miModal" class="modal">
-			<div class="modal-contenido">
-			  <a href="#">X</a>
-			  <h1>¿Seguro desea eliminar este producto?</h1>
-			  <p>Esta acción no tiene marcha atrás, al presionar Si se eliminará este producto</p>
-			    <div class="repor">
-                      <a class="refer pc"  href="#">Si</a>
-		              <a class="refer pc"  href="#">No</a>
-			</div> 
-			</div>  
-		  </div>
-         <!-- aqui finaliza el modal-->
+<button class="refer btn-reporte pc" (click)="alertConfirmation()">Generar reporte de inventario</button>
+
      
-
-        <div id="mi2Modal" class="modal">
-			<div class="modal-contenido">
-			  <a href="#">X</a>
-			  <h1>¿Desea imprimir el reporte de inventario?</h1>
-			 
-			    <div class="repor">
-                      <a class="refer pc"  href="#">Si</a>
-		              <a class="refer pc"  href="#">No</a>
-			</div> 
-			</div>  
-		  </div>
